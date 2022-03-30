@@ -1,2 +1,24 @@
-# quran-digital
-quran-digital Public - ALHIKMAH ( https://www.alhikmah.my.id ) - Projects AWDEV DEVOLOPER ( https://wahyu9kdl.github.io ) Support me ( https://saweria.co/AwGroupChannel )
+# quran
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
