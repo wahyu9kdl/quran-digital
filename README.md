@@ -86,6 +86,26 @@ About quran images from android.quran.com
 5. Run: `npm run build` for production
 6. Enjoy!
 
+## GITHUB 
+
+HTTPS
+```
+https://github.com/wahyu9kdl/quran-digital.git
+
+```
+SSH
+
+```
+git@github.com:wahyu9kdl/quran-digital.git
+
+```
+
+GITHUB CLI
+
+```
+gh repo clone wahyu9kdl/quran-digital
+
+```
 
 ## Project setup
 ```
