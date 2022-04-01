@@ -1,10 +1,19 @@
 #  <div align="center"> القرآن </div>
 
+
+  <div class="quran-logo column items-center q-my-lg" align="center">
+    <img src="./src/assets/Quran-Kareem.svg" width="100px" />
+    <div class="text-h6 q-mt-sm">Al-Quran dan Terjemahan</div>
+    <div class="text-caption">qur'an digital</div>
+  </div>
+
+
+
 # <div align="center">qur'an digital</div>
 
 Live Acces Modul Aplication [AL QUR'AN DIGITAL](https://alquran-alhikmah.netlify.app/) Original Design AWDEV - @wahyu9kdl</div>
 
-# HOME
+# Home
 
 [https://alquran-alhikmah.netlify.app/](https://alquran-alhikmah.netlify.app/)
 
@@ -163,3 +172,6 @@ _To edit notification comments on pull requests, go to your [Netlify site settin
 </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=wahyu9kdl" alt="wahyu9kdl" /></a> </p>
+
+
+
