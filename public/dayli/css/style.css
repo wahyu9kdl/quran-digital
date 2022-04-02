@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Noto+Naskh+Arabic&family=Roboto&display=swap');
+
+@font-face {
+    font-family: 'arab';
+    src: url('../font/AlQalamQuranMajeed2.ttf') format('truetype');
+}
+
+body {
+    background-color: #EFF2FA;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.text-ayat {
+    font-family: 'arab', serif;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #777; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.card {
+    box-shadow: 0px 5px 15px 0px rgb(206, 210, 223);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.card:hover {
+    transform: scale(.97);
+}
+
+.card.hero {
+    background: rgb(22,148,242);
+    background: linear-gradient(45deg, rgba(22,148,242,1) 0%, rgba(11,201,255,1) 100%);
+    color: white !important;
+    box-shadow: 0px 5px 15px 0px rgb(206, 210, 223);
+}
+
+img {
+    -webkit-filter: drop-shadow(0px 10px 10px rgba(0,0,0,.25));
+    filter: drop-shadow(0px 10px 10px rgba(0,0,0,.25));
+    transition: .3s;
+}
+
+img:hover {
+    transform: translateY(-20px);
+    -webkit-filter: drop-shadow(0px 30px 10px rgba(0,0,0,.15));
+    filter: drop-shadow(0px 30px 10px rgba(0,0,0,.15));
+}
+
+.icon a {
+    -webkit-filter: drop-shadow(0px 10px 10px rgba(0,0,0,.25));
+    filter: drop-shadow(0px 10px 10px rgba(0,0,0,.25));
+    transition: .3s;
+}
+
+.icon a:hover {
+    transform: translateY(-5px);
+    -webkit-filter: drop-shadow(0px 20px 10px rgba(0,0,0,.1));
+    filter: drop-shadow(0px 20px 10px rgba(0,0,0,.1));
+}
+
+.card.hero:hover {
+    transform: scale(1);
+}
+
+.card.hero2:hover {
+    transform: scale(1);
+}
+
+.info {
+    font-size: 12px;
+}
+
+.btn-primary {
+    background: #00B1FF !important;
+    border-color: #00B1FF !important;
+}
+
+.btn-outline-primary {
+    border-color: #00B1FF !important;
+    color: #00B1FF !important;
+}
+
+.btn-outline-primary:hover, .btn-outline-primary:focus {
+    background: #00B1FF !important;
+    border-color: #00B1FF !important;
+    color: white !important;
+}
+
+.btn:focus, .btn:active, .btn:hover{
+    box-shadow: none!important;
+    outline: 0;
+}
+
+audio  {
+    width: 100%;
+    height: 35px;
+}
+
+audio::-webkit-media-controls-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+audio::-webkit-media-controls-timeline {
+    display: none !important;
+}
+
+audio::-webkit-media-controls-current-time-display {
+    display: none;
+}
+
+audio::-webkit-media-controls-time-remaining-display {
+    display: none;
+}
