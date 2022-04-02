@@ -1,6 +1,9 @@
 <template>
-  <div><script async src="https://cse.google.com/cse.js?cx=4a26c594511b8cd0c"></script>
-<div class="gcse-search"></div>
+  <div>
+  <script async src="https://cse.google.com/cse.js?cx=4a26c594511b8cd0c"></script>
+  <div class="gcse-search"></div>
+  </div>
+  <div>
     <p class="text-center text-muted">
       al-quran digital by
       <a href="https://www.alhikmah.my.id">ALHIKMAH.MY.ID</a> made with ❤️ | Awdev
