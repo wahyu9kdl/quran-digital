@@ -1,0 +1,141 @@
+11:41:11 AM: Waiting for other deploys from your team to complete. Check the queue: https://app.netlify.com/teams/wahyu9kdl/builds
+11:42:06 AM: Build ready to start
+11:42:08 AM: build-image version: 2d975aac035b49faec3566497e1a23664999ac04 (focal)
+11:42:08 AM: build-image tag: v4.7.0
+11:42:08 AM: buildbot version: 51f079eb2b8422b2dd4a536784559216feb9524d
+11:42:08 AM: Fetching cached dependencies
+11:42:08 AM: Starting to download cache of 110.3MB
+11:42:09 AM: Finished downloading cache in 1.27289729s
+11:42:09 AM: Starting to extract cache
+11:42:13 AM: Finished extracting cache in 3.396506531s
+11:42:13 AM: Finished fetching cache in 4.680279449s
+11:42:13 AM: Starting to prepare the repo for build
+11:42:13 AM: Preparing Git Reference pull/3/head
+11:42:13 AM: Parsing package.json dependencies
+11:42:14 AM: Starting build script
+11:42:14 AM: Installing dependencies
+11:42:14 AM: Python version set to 2.7
+11:42:14 AM: Started restoring cached node version
+11:42:16 AM: Finished restoring cached node version
+11:42:16 AM: v16.14.2 is already installed.
+11:42:16 AM: Now using node v16.14.2 (npm v8.5.0)
+11:42:16 AM: Started restoring cached build plugins
+11:42:16 AM: Finished restoring cached build plugins
+11:42:17 AM: Attempting ruby version 2.7.2, read from environment
+11:42:18 AM: Using ruby version 2.7.2
+11:42:18 AM: Using PHP version 8.0
+11:42:18 AM: Started restoring cached node modules
+11:42:18 AM: Finished restoring cached node modules
+11:42:18 AM: Started restoring cached go cache
+11:42:18 AM: Finished restoring cached go cache
+11:42:18 AM: go version go1.16.5 linux/amd64
+11:42:18 AM: go version go1.16.5 linux/amd64
+11:42:18 AM: Installing missing commands
+11:42:18 AM: Verify run directory
+11:42:20 AM: ​
+11:42:20 AM: ────────────────────────────────────────────────────────────────
+11:42:20 AM:   Netlify Build                                                 
+11:42:20 AM: ────────────────────────────────────────────────────────────────
+11:42:20 AM: ​
+11:42:20 AM: ❯ Version
+11:42:20 AM:   @netlify/build 26.5.1
+11:42:20 AM: ​
+11:42:20 AM: ❯ Flags
+11:42:20 AM:   baseRelDir: true
+11:42:20 AM:   buildId: 624530e7f9d88000086c87c5
+11:42:20 AM:   deployId: 624530e7f9d88000086c87c7
+11:42:20 AM: ​
+11:42:20 AM: ❯ Current directory
+11:42:20 AM:   /opt/build/repo
+11:42:20 AM: ​
+11:42:20 AM: ❯ Config file
+11:42:20 AM:   No config file was defined: using default values.
+11:42:20 AM: ​
+11:42:20 AM: ❯ Context
+11:42:20 AM:   deploy-preview
+11:42:20 AM: ​
+11:42:20 AM: ────────────────────────────────────────────────────────────────
+11:42:20 AM:   1. Build command from Netlify app                             
+11:42:20 AM: ────────────────────────────────────────────────────────────────
+11:42:20 AM: ​
+11:42:20 AM: $ npm run build
+11:42:20 AM: > quran@0.1.0 build
+11:42:20 AM: > vue-cli-service build
+11:42:20 AM: Browserslist: caniuse-lite is outdated. Please run:
+11:42:20 AM: npx browserslist@latest --update-db
+11:42:20 AM: Why you should do it regularly:
+11:42:20 AM: https://github.com/browserslist/browserslist#browsers-data-updating
+11:42:21 AM: -  Building for production...
+11:42:23 AM: Browserslist: caniuse-lite is outdated. Please run:
+11:42:23 AM: npx browserslist@latest --update-db
+11:42:23 AM: Why you should do it regularly:
+11:42:23 AM: https://github.com/browserslist/browserslist#browsers-data-updating
+11:42:32 AM:  WARNING  Compiled with 2 warnings4:42:32 AM
+11:42:32 AM:  warning 
+11:42:32 AM: asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+11:42:32 AM: This can impact web performance.
+11:42:32 AM: Assets:
+11:42:32 AM:   js/chunk-vendors.589c407f.js (1.14 MiB)
+11:42:32 AM:  warning 
+11:42:32 AM: entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+11:42:32 AM: Entrypoints:
+11:42:32 AM:   app (1.36 MiB)
+11:42:32 AM:       css/chunk-vendors.55204a1e.css
+11:42:32 AM:       js/chunk-vendors.589c407f.js
+11:42:32 AM:       css/app.07c57585.css
+11:42:32 AM:       js/app.49385d7e.js
+11:42:32 AM:   File                                   Size              Gzipped
+11:42:32 AM:   dist/js/chunk-vendors.589c407f.js      1172.48 KiB       280.33 KiB
+11:42:32 AM:   dist/js/app.49385d7e.js                7.71 KiB          3.01 KiB
+11:42:32 AM:   dist/js/about.bf1311d6.js              0.44 KiB          0.31 KiB
+11:42:32 AM:   dist/css/chunk-vendors.55204a1e.css    213.85 KiB        31.53 KiB
+11:42:32 AM:   dist/css/app.07c57585.css              0.28 KiB          0.21 KiB
+11:42:32 AM:   Images and other types of assets omitted.
+11:42:32 AM:  DONE  Build complete. The dist directory is ready to be deployed.
+11:42:32 AM:  INFO  Check out deployment instructions at https://cli.vuejs.org/guide/deployment.html
+11:42:33 AM: ​
+11:42:33 AM: (build.command completed in 13.2s)
+11:42:33 AM: ​
+11:42:33 AM: ────────────────────────────────────────────────────────────────
+11:42:33 AM: Creating deploy upload records
+11:42:33 AM:   2. Deploy site                                                
+11:42:33 AM: ────────────────────────────────────────────────────────────────
+11:42:33 AM: ​
+11:42:33 AM: Starting post processing
+11:42:33 AM: Starting to deploy site from 'dist'
+11:42:33 AM: Creating deploy tree 
+11:42:33 AM: 0 new files to upload
+11:42:33 AM: Post processing - HTML
+11:42:33 AM: 0 new functions to upload
+11:42:33 AM: Site deploy was successfully initiated
+11:42:33 AM: ​
+11:42:33 AM: (Deploy site completed in 218ms)
+11:42:34 AM: Post processing - header rules
+11:42:33 AM: ​
+11:42:33 AM: ────────────────────────────────────────────────────────────────
+11:42:33 AM:   Netlify Build Complete                                        
+11:42:33 AM: ────────────────────────────────────────────────────────────────
+11:42:34 AM: Post processing - redirect rules
+11:42:33 AM: ​
+11:42:33 AM: (Netlify Build completed in 13.4s)
+11:42:34 AM: Caching artifacts
+11:42:34 AM: Post processing done
+11:42:34 AM: Started saving node modules
+11:42:34 AM: Finished saving node modules
+11:42:34 AM: Started saving build plugins
+11:42:34 AM: Finished saving build plugins
+11:42:34 AM: Started saving pip cache
+11:42:34 AM: Finished saving pip cache
+11:42:34 AM: Started saving emacs cask dependencies
+11:42:34 AM: Finished saving emacs cask dependencies
+11:42:34 AM: Started saving maven dependencies
+11:42:34 AM: Finished saving maven dependencies
+11:42:34 AM: Started saving boot dependencies
+11:42:34 AM: Finished saving boot dependencies
+11:42:34 AM: Started saving rust rustup cache
+11:42:34 AM: Finished saving rust rustup cache
+11:42:34 AM: Started saving go dependencies
+11:42:34 AM: Finished saving go dependencies
+11:42:34 AM: Build script success
+11:42:36 AM: Site is live ✨
+11:42:49 AM: Finished processing build request in 41.5396836s
