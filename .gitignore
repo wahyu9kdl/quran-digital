@@ -1,24 +1,37 @@
-.DS_Store
-node_modules
-/dist
+> .gitignore
+git add .gitignore
+git commit -m "message" .gitignore
 
+curl -o .gitignore https://www.gitignore.io/api/MY_API_NAME
+curl -o .gitignore https://www.gitignore.io/api/java
+curl -o .gitignore https://raw.githubusercontent.com/github/gitignore/master/MY_API_NAME.gitignore
+curl -o .gitignore https://raw.githubusercontent.com/github/gitignore/master/Java.gitignore
 
-# local env files
-.env.local
-.env.*.local
+# Binaries for programs and plugins
+*.doct
+*.jpn
+*.png
+*.gif
+*.mp3
+*.mp4
+*.pdf
+*.exe
+*.html
+*.php
+*.txt
+*.zip
+*.exe
+*.app
+*.exe~
+*.dll
+*.so
+*.dylib
 
-# Log files
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
+# Test binary, built with `go test -c`
+*.test
 
-# Editor directories and files
-.idea
-.vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-node_modules
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
