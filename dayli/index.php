@@ -97,12 +97,7 @@ $surah = get_surah();
             </div>
         </div>
     </section>
-<div>
-<center>
-<script async src="https://cse.google.com/cse.js?cx=4a26c594511b8cd0c"></script>
-<div class="gcse-search"></div>
-</center>
-</div>
+
 <fouter>
 <div>
     <p class="text-center text-muted">
