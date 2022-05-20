@@ -13,9 +13,9 @@
 
 <div align="center">
     <p align="center">Daily Quran is a digital Al-Quran that can be used anywhere and anytime.</p>
-    <a href="https://dailyquran.rf.gd">View Demo</a>
+    <a href="https://wahyu9kdl.github.io/quran-digital/dayli/live.html#gsc.tab=0">View Demo</a>
     ·
-    <a href="https://saweria.co/azein25">Donate</a>
+    <a href="https://saweria.co/AwGroupChannel">Donate</a>
 </div>
 
 ## Technology used
